@@ -6,6 +6,9 @@ const app = express();
 // connect DB
 connectDB();
 
+// Init middleware
+app.use(express.json({extended: false}))
+
 app.get("/", (req, res) =>
   res.json({ msg: "Welcome to the Finance application!" })
 );
