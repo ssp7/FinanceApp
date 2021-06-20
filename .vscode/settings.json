@@ -1,0 +1,4 @@
+{
+    "prettier.jsxSingleQuote": true,
+    "git.ignoreLimitWarning": true
+}
